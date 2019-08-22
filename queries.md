@@ -46,3 +46,4 @@ SELECT DISTINCT (City) FROM [Customers];
 SELECT (SupplierName)
 FROM [Suppliers]
 WHERE LENGTH(SupplierName) > 20;
+(returns 11 records)
